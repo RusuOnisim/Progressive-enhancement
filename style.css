@@ -1,0 +1,127 @@
+p {
+  font-family: serif;
+  word-spacing: 5px;
+  font-size: 16px;
+  color: #800000;
+}
+a {
+  color: #0055aa;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #ca4141;
+}
+a:visited {
+  color: #990099;
+}
+a:visited:hover {
+  color: #ca4141;
+}
+
+body, header, footer ,main
+{
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/png-vector/20200530/ourmid/pngtree-white-snow-png-image_2215326.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom right;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+q,
+blockquote {
+  width: 50%;
+  margin: 30px auto;
+  text-align: center;
+  font-style: italic;
+  color: black;
+  font-size: 160%;
+  background-color: grey;
+  border-left: 3px solid Firebrick;
+  padding-left: 30px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: block;
+}
+cite {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-style: italic;
+  color: black;
+}
+.neighbors {
+ 
+  border-color: blue;
+}
+
+.farmer {
+  
+  border-color: green;
+}
+
+header > h1 {
+  background-color: yellow;
+}
+
+.Good
+{
+  text-transform: capitalize;
+  color: green;
+}
+
+.Bad
+{
+  text-transform: capitalize;
+  color: red;
+}
+
+tr:nth-child(odd)
+{
+ background-color: grey;
+  
+}
+
+tr:nth-child(even)
+{
+  background-color: white;
+}
+
+
+li {
+  background-position: right;
+  background-repeat: no-repeat;
+  padding-right: 30px;
+  background-size: contain;
+}
+ul {
+  display: inline-block;
+}
+
+ul li:nth-child(1) {
+  background-image: url('bien.png');
+
+}
+ul li:nth-child(2) {
+  background-image: url('mal.png');
+}
+ul li:nth-child(3) {
+  background-image: url('chat.png');
+}
+
+figure
+{
+  display: flex; 
+  align-items: center;
+  justify-content: left;
+
+}
